@@ -28,7 +28,7 @@ $(document).ready(function (e){
 		
 	function onError(error) {
 			
-			alert('code:' +erro.code +'\n'+'message:'+error.message+'\n');
+			alert('code:' +error.code +'\n'+'message:'+error.message+'\n');
 		}
 	}
 	
