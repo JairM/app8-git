@@ -15,7 +15,7 @@
 	  navigator.geolocation.watchPosition(mostrarUbicacion);}
 	  </script>
       
-      <!--Se escribe un mapa con la localizacion anterior -->
+      <!--Se escribe un mapa con la localización anterior -->
       <div id="demo"> </div>
       <div id="mapholder"></div>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFd0aiE5FttY8XRAFI9ecTSpgo2vP-qMk"></script>
@@ -31,7 +31,7 @@
 		lon=position.coords.longitude;
 		latlon=new google.maps.LatLng(lat,lon)
 		mapholder=document.getElementById('mapholder')
-		mapholder.style.height ='500px'
+		mapholder.style.height ='500px';
 		mapholder.style.width ='750px';
 		var myOptions={
 			center:latlon,zoom:15,
